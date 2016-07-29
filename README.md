@@ -5,6 +5,10 @@ So the creators of the C# Pokemon Go Bot decided to make their Bot paid only and
 # How to use
 If you haven’t already, download [NodeJS](https://nodejs.org/en/download/).<br><br>
 Download the whole Repository as a zip file, unzip it and open the new folder. Now hit `Shift` while pressing `Right Click` and select “Open Command prompt” .<br><br>
+Run the following command from a command prompt:<br>
+`mmc`<br>
+Choose the menu option File->Add/Remove Snap-in<br>
+From the “Available Snap-ins” list on the left, choose the “Certificates” snap-in and click the Add > button and click OK.<br><br>
 Type in `certmgr`<br>
 Now right click on "trusted root certification authorities" go to "all task" and click on "import". Now selct the `cert.p7b` file and just proceed all other steps. After you've imported the cert, you can proceed.<br><br>
 
