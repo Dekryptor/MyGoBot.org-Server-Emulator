@@ -3,8 +3,8 @@ var fs = require('fs');
 var request = require('request');
 
 var options = {
-   key  : fs.readFileSync('key.key'),
-   cert : fs.readFileSync('cert.cert')
+   key  : fs.readFileSync('key.pem'),
+   cert : fs.readFileSync('cert.pem')
 };
 
 var VersionHeaders = {
@@ -28,7 +28,6 @@ https.createServer(options, function (req, res) {
         res.end(body)
     })
    }else{
-       console.log("Not Found")
        res.end()
    }
    

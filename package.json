@@ -8,9 +8,5 @@
   },
   "devDependencies": {},
   "author": "Bela Stoyan <bela_stoyan@protonmail.com>",
-  "license": "AGPL-3.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NotBela/MyGoBot.org-Server-Emulator.git"
-  }
+  "license": "AGPL-3.0"
 }
